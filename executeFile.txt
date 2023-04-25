@@ -1,4 +1,0 @@
-load images/Happy.ppm happy
-sepia happy happySep
-save images/HappySepFileTest.ppm happySep
-quit

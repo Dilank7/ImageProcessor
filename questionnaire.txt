@@ -1,0 +1,61 @@
+Code status questionnaire:
+
+Please complete this questionnaire by selecting the appropriate answer for each question. Then include this file in the code that you send to your customers.
+
+Import/export features:
+
+Load a PPM file implementation: Y
+Script command to load a PPM file: load images/Happy.ppm happy
+Load PPM file from GUI: Y
+
+Load a PNG/JPG file implementation: Y
+Script command to load a PNG/JPG file: load images/Happy.png happy
+Load PNG/JPG file from GUI: Y
+
+Save a PPM file implementation: Y
+Script command to save a PPM file: save images/Happy.ppm happy
+Save PPM file from GUI: Y
+
+Save a PNG/JPG file implementation: Y
+Script command to save a PNG/JPG file: save images/Happy.png happy
+Save PNG/JPG file from GUI: Y
+
+
+Image manipulations:
+
+Visualize various image components implementation: Y
+Script commands to load various image components: red-component happy happyRed
+Visualize various image components from GUI: Y
+
+Flip an image horizontally implementation: Y
+Script command to flip an image horizontally: horizontal-flip happy happyHori
+Flip an image horizontally from GUI: Y
+
+Flip an image vertically implementation: Y
+Script command to flip an image vertically: vertical-flip happy happyVert
+Flip an image vertically from GUI: Y
+
+Brighten/darken image implementation: Y
+Script command to bright/darken image: brighten 10 happy happy-brighter
+Brighten/darken image from GUI: Y
+
+Blur an image implementation: Y
+Script command to blur an image: blur happy happy-blur
+Blur an image from GUI: Y
+
+Sharpen an image implementation: Y
+Script command to sharpen an image: sharpen happy happy-sharp
+Sharpen an image from GUI: Y
+
+Sepia implementation: Y
+Script command for sepia: sepia happy-reg happy-sepia
+Sepia from GUI: Y
+
+Histogram visualization from GUI: N for initial Image it works but once image is edited it is weird
+
+Program:
+
+Program runs by running main? Y
+Program runs correctly using -file option? Y
+Program runs correctly using -text option? Y
+Program runs correctly (opens GUI) with no command-line options? Y

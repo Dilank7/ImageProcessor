@@ -1,0 +1,20 @@
+#created by dilan kudva and isabella taneja
+
+load images/Happy.ppm happy
+load images/Hisoka.jpeg hisoka
+brighten 10 happy happy-brighter
+vertical-flip happy happy-vertical
+horizontal-flip happy-vertical happy-vertical-horizontal
+value-component happy happy-value
+luma-component happy happy-luma
+intensity-component happy happy-intensity
+red-component happy happy-redComp
+green-component happy happy-greenComp
+blue-component happy happy-blueComp
+blur happy happy-blur
+sharpen happy-blur happy-reg
+sepia happy-reg happy-sepia
+greyscale hisoka hisoka-greyscale
+save images/happy-sepia.png happy-sepia
+save images/hisoka-greyscale.png hisoka-greyscale
+save images/happy-brighter.ppm happy-brighter

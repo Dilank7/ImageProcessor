@@ -1,0 +1,14 @@
+load images/Happy.ppm happy
+downscale 0.75 0.9 happy happyDW
+downscale 1 0.4 happy happyDH
+downscale 0.6 0.6 happy happyDWH
+load images/redCompHappyImage.ppm happyRed
+darken 255 happy happyRed hapBwithMask
+brighten 100 happy hapB
+save images/HappyDownscaleWidth.ppm happyDW
+save images/HappyDownscaleHeight.jpeg happyDH
+save images/HappyDownscaleWidthHeight.png happyDWH
+save images/HappyBrightMask.jpg hapBwithMask
+save images/HappyBrightNoMask.png hapS
+quit
+

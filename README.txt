@@ -1,8 +1,3 @@
-Assignment 8: Image Processing Extra credit
-by Dilan Kudva and Isabella Taneja
-
-All images used were created by Dilan Kudva and Isabella Taneja
-
 Controller
 Our controller contains the interface "ImageProcessorController" and a class "ImageControllerImpl"
 The interface contains the method control which allows the controller to be accessed by the user

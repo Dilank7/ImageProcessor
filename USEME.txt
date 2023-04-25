@@ -1,10 +1,4 @@
-Assignment 5: Image Processing
-how to use
-by Dilan Kudva and Isabella Taneja
-
-All images used were created by Dilan Kudva and Isabella Taneja
-
-How to run our program
+How to run program
 - Type 'load Images/Happy.ppm loaded' to load up the starter image file
     - then type the function you want to do the degree to which u want to change and then loaded
      and a name. Example of each command:
